@@ -29,7 +29,7 @@ img {
   flex-direction: row;
 } 
 
-.z_img_wrap {
+.img_wrap {
   position: relative;
   height: 250px;
   width: 250px;
@@ -56,16 +56,11 @@ img {
   font-family: 'Indie Flower', cursive;
 }
   
-.z_img_wrap:hover .z_img_overlay {
+.img_wrap:hover .z_img_overlay {
   visibility: visible;
   opacity: 1;
 }
 
-.j_img_wrap {
-  position: relative;
-  height: 250px;
-  width: 250px;
-}
 
 .j_img_overlay {
   position: absolute;
@@ -81,22 +76,11 @@ img {
 }
 
 
-.j_img_wrap:hover .j_img_overlay {
+.img_wrap:hover .j_img_overlay {
   visibility: visible;
   opacity: 1;
 }
 
-.k_img_wrap {
-  position: relative;
-  height: 250px;
-  width: 250px;
-}
-
-.f_img_wrap {
-  position: relative;
-  height: 250px;
-  width: 250px;
-}
 
 .k_img_overlay {
   position: absolute;
@@ -125,12 +109,12 @@ img {
   }
 
 
-.k_img_wrap:hover .k_img_overlay {
+.img_wrap:hover .k_img_overlay {
   visibility: visible;
   opacity: 1;
   }
 
-.f_img_wrap:hover .f_img_overlay {
+.img_wrap:hover .f_img_overlay {
   visibility: visible;
   opacity: 1;
    }
