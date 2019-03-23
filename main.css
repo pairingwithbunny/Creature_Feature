@@ -1,5 +1,3 @@
-
-
 h1 {
   text-align: center;
   font-family: 'ZCOOL XiaoWei', serif;
@@ -12,9 +10,9 @@ body {
 }
 
 .top {
- display: flex;
- justify-content: space-evenly;
- padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
 }
 
 .bottom {
@@ -27,12 +25,10 @@ img {
   width: 250px;
   height: 250px;
   flex-direction: row;
-} 
+}
 
 .img_wrap {
   position: relative;
-  height: 250px;
-  width: 250px;
 }
 
 .img_overlay {
@@ -44,7 +40,6 @@ img {
   visibility: hidden;
   opacity: 0;
   transition: opacity .2s, visibility .2s;
-  width: 250px;
 }
 
 .img_text {
@@ -54,7 +49,7 @@ img {
   font-size: 35px;
   font-family: 'Indie Flower', cursive;
 }
-  
+
 .img_wrap:hover .img_overlay {
   visibility: visible;
   opacity: 1;
@@ -75,7 +70,3 @@ img {
 .f_background {
   background: rgba(69, 122, 53, 0.72);
 }
-
-
-
-
