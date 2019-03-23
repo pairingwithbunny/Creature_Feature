@@ -1,0 +1,136 @@
+
+
+h1 {
+    text-align: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+    letter-spacing: 20px;
+    padding-top: 20px;
+}
+
+body {
+  background: linear-gradient(90deg, #FAA1AF, #F9B0BB, #FACDD6, #F9B0BB, #FAA1AF);
+}
+
+.top {
+  display: flex;
+ justify-content: space-evenly;
+ padding-top: 20px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 25px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  flex-direction: row;
+} 
+
+.z_img_wrap {
+  position: relative;
+  height: 250px;
+  width: 250px;
+}
+  
+.z_img_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+  width: 250px;
+}
+
+.img_text {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 35px;
+  font-family: 'Indie Flower', cursive;
+}
+  
+.z_img_wrap:hover .z_img_overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+.j_img_wrap {
+  position: relative;
+  height: 250px;
+  width: 250px;
+}
+
+.j_img_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(40, 15, 71, 0.80);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+  width: 250px;
+}
+
+
+.j_img_wrap:hover .j_img_overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+.k_img_wrap {
+  position: relative;
+  height: 250px;
+  width: 250px;
+}
+
+.f_img_wrap {
+  position: relative;
+  height: 250px;
+  width: 250px;
+}
+
+.k_img_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(176, 48, 96, 0.72);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+  width: 250px;
+}
+
+.f_img_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(69, 122, 53, 0.72);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+  width: 250px;
+  }
+
+
+.k_img_wrap:hover .k_img_overlay {
+  visibility: visible;
+  opacity: 1;
+  }
+
+.f_img_wrap:hover .f_img_overlay {
+  visibility: visible;
+  opacity: 1;
+   }
