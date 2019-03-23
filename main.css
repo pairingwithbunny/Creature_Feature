@@ -34,14 +34,17 @@ img {
   height: 250px;
   width: 250px;
 }
-  
+
+.z_background {
+  background: rgba(29, 106, 154, 0.72);
+}
+
 .z_img_overlay {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(29, 106, 154, 0.72);
   visibility: hidden;
   opacity: 0;
   transition: opacity .2s, visibility .2s;
@@ -61,6 +64,9 @@ img {
   opacity: 1;
 }
 
+.j_background {
+  background: rgba(40, 15, 71, 0.80);
+}
 
 .j_img_overlay {
   position: absolute;
@@ -68,7 +74,7 @@ img {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(40, 15, 71, 0.80);
+  
   visibility: hidden;
   opacity: 0;
   transition: opacity .2s, visibility .2s;
@@ -81,6 +87,9 @@ img {
   opacity: 1;
 }
 
+.k_background {
+  background: rgba(176, 48, 96, 0.72);
+}
 
 .k_img_overlay {
   position: absolute;
@@ -88,11 +97,15 @@ img {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(176, 48, 96, 0.72);
+  
   visibility: hidden;
   opacity: 0;
   transition: opacity .2s, visibility .2s;
   width: 250px;
+}
+
+.f_background {
+  background: rgba(69, 122, 53, 0.72);
 }
 
 .f_img_overlay {
@@ -101,7 +114,7 @@ img {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(69, 122, 53, 0.72);
+  
   visibility: hidden;
   opacity: 0;
   transition: opacity .2s, visibility .2s;
