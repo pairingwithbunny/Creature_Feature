@@ -1,10 +1,10 @@
 
 
 h1 {
-    text-align: center;
-    font-family: 'ZCOOL XiaoWei', serif;
-    letter-spacing: 20px;
-    padding-top: 20px;
+  text-align: center;
+  font-family: 'ZCOOL XiaoWei', serif;
+  letter-spacing: 20px;
+  padding-top: 20px;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 }
 
 .top {
-  display: flex;
+ display: flex;
  justify-content: space-evenly;
  padding-top: 20px;
 }
@@ -35,11 +35,7 @@ img {
   width: 250px;
 }
 
-.z_background {
-  background: rgba(29, 106, 154, 0.72);
-}
-
-.z_img_overlay {
+.img_overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -59,75 +55,27 @@ img {
   font-family: 'Indie Flower', cursive;
 }
   
-.img_wrap:hover .z_img_overlay {
+.img_wrap:hover .img_overlay {
   visibility: visible;
   opacity: 1;
+}
+
+.z_background {
+  background: rgba(29, 106, 154, 0.72);
 }
 
 .j_background {
   background: rgba(40, 15, 71, 0.80);
 }
 
-.j_img_overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity .2s, visibility .2s;
-  width: 250px;
-}
-
-
-.img_wrap:hover .j_img_overlay {
-  visibility: visible;
-  opacity: 1;
-}
-
 .k_background {
   background: rgba(176, 48, 96, 0.72);
-}
-
-.k_img_overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity .2s, visibility .2s;
-  width: 250px;
 }
 
 .f_background {
   background: rgba(69, 122, 53, 0.72);
 }
 
-.f_img_overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity .2s, visibility .2s;
-  width: 250px;
-  }
 
 
-.img_wrap:hover .k_img_overlay {
-  visibility: visible;
-  opacity: 1;
-  }
 
-.img_wrap:hover .f_img_overlay {
-  visibility: visible;
-  opacity: 1;
-   }
